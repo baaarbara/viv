@@ -1,0 +1,29 @@
+
+h1{
+    font-size: 60px;
+    background-color: #A8C4FB;
+    text-align: center;
+    border: 1px solid #4A73C6;
+
+}
+body{
+    background-color: rgb(134, 183, 240);
+}
+
+.r{
+    transition: 1s;
+    font-size: 20px;
+    background-color: salmon;
+    color: seashell;
+    border: solid 3px #8a4646;
+    border-radius: 30px;
+    opacity: 0.7;
+    margin: 30px;
+    padding: 15px;
+    width: 100px;
+}
+.r:hover{
+    border: solid 9px #8a4646;
+    opacity: 1;
+    transform: rotate(45deg);
+} 
