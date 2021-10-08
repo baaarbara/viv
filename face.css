@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
 h1{
-    font-size: 60px;
-    background-color: #A8C4FB;
-    text-align: center;
-    border: 1px solid #4A73C6;
-
+    margin-top: 250px;
+    background: url(1.jpg);
+    font-size: 150px;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s infinite linear;
 }
 body{
-    background-color: rgb(134, 183, 240);
+    background-color: black;
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
 }
 
 .r{
     transition: 1s;
-    font-size: 20px;
+    font-size: 15px;
     background-color: salmon;
     color: seashell;
     border: solid 3px #8a4646;
